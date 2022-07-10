@@ -1,0 +1,108 @@
+#header{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:30px ;
+    margin-left:200px ;
+    margin-right:200px ;
+    background-color:rgb(198, 247, 149);
+    height: 150px;
+    padding-top: 10px;
+    font-size: large;
+    text-shadow: 3px 3px lightgray;
+    box-shadow: 10px 10px 5px rgb(29, 153, 29);
+}
+#footer{
+    margin-left: 400px;
+    margin-right: 200px;
+}
+li{
+    display: inline;
+}
+#nav{
+    text-align:center;
+    font-size: x-large;
+}
+.images{
+    width:280px;
+    height:150px;
+}
+.grid-container{
+    display: grid;
+grid-template-columns: auto auto auto;
+column-gap: 10px;
+row-gap: 10px;
+align-items:center;
+margin-left: 220px;
+margin-right: 300px;
+}
+.grid-item{
+background-image: linear-gradien(white,green);
+padding:10px;
+font-size: small;
+text-align: center;
+}
+#image{
+   float:center;
+    margin-top: 10px;
+    margin-bottom:30px ;
+    margin-left:200px ;
+    margin-right: 200px;
+    width:935px;
+    height:400px;
+           
+}
+.sometext{
+    text-align:center;
+    font-size:x-large;
+   color: rgb(153, 7, 7);
+}
+#general{
+    float:center;
+  margin-top: 0px;
+    margin-bottom:30px ;
+    margin-left:200px ;
+    margin-right:200px ;
+    padding-right: 30px;
+    padding-bottom:30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: large;
+    background-color: rgb(252, 195, 157);
+    box-shadow:10px 10px 5px rgb(190, 143, 55);
+}
+.wikipedia{
+    background-color: rgb(207, 135, 40);
+    box-shadow:10px 10px 5px rgb(190, 143, 55);
+   font-size: x-large;
+    margin-left:200px ;
+    margin-right:200px ;
+    padding-right: 30px;
+    padding-bottom:30px;
+    padding-top: 30px;
+    text-align:center
+}
+.flex-container{
+    display:flex;
+   
+    margin-left: 200px;
+    margin-right: 200px;
+    height:400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.coloumn{
+    background-color: rgb(96, 155, 62);
+    margin:10px;
+    padding:10px;
+    box-shadow:10px 10px 5px rgb(190, 143, 55);
+}
+body{
+    height: 2000px;
+    background-image: linear-gradient(orange,white,green);
+    
+}
+.selector{
+    font-size: xx-large;
+}
